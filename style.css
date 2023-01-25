@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 70%;
+    margin: 2rem auto;
+}
+
+.links .active {
+    background: #25DFE6;
+    transition: 1s ease;
+}
+
+.links .active a {
+    color: white;
+}
+
+.content-border {
+    background-color: #25DFE6;
+    padding: 3px;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h1 {
+    color: rgba(105, 105, 105, 0.8);
+    border: 1px solid rgba(105, 105, 105, 0.5);
+    padding: 3rem;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    padding: 1rem;
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    margin-right: 0.5rem;
+    background: rgba(105, 105, 105, 0.1);
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgba(105, 105, 105, 1);
+    font-size: 1.3rem;
+}
+
+.class-content {
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    padding: 2rem 0;
+}
+
+.class-content div {
+    padding: 2rem 5rem;
+}
+
+.class-content div h2 {
+    color: rgba(105, 105, 105, 0.8);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.class-content div p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.class-content div ul {
+    margin-left: 1.2rem;
+}
+
+.class-content div ul li {
+    color: rgba(105, 105, 105, 0.8);
+}
+
+.class-content div ul li a {
+    text-decoration: none;
+    color: #25DFE6;
+    font-size: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.active-article {
+    display: block;
+}
